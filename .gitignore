@@ -1,0 +1,21 @@
+# Dependências e arquivos de trabalho
+node_modules/
+work/
+outputs/
+dist/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# Credenciais e exportações do ambiente
+.env
+.env.*
+*.pem
+*.key
+syonet-acessos-antes-*
+syonet-copia-*
+syonet-inativacao-*
+syonet-inatividade-*
+syonet-logs-*
+syonet-cobertura-*

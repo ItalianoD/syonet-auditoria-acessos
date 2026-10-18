@@ -1,0 +1,4 @@
+﻿idUsuario;nome;nomeLogin;ativo;idGrupo;empresas;ultimoLogin
+90001;Ana Exemplo;ANA.DEMO;true;GESTÃO;9|7;01/09/2026 10:00
+90002;Bruno Exemplo;BRUNO.DEMO;true;VENDAS;9;15/10/2026 08:00
+90003;Carla Exemplo;CARLA.DEMO;true;TI;9;

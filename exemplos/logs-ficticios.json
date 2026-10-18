@@ -1,0 +1,35 @@
+[
+  {
+    "idLog": 1,
+    "usuario": "Ana Exemplo",
+    "acao": "UPDATE",
+    "entidade": "Configuração da loja",
+    "idEmpresa": 9,
+    "dataHora": "2026-10-16T21:00:00.000Z",
+    "campo": "Horário de atendimento",
+    "valorAnterior": "18:00",
+    "valorNovo": "19:00"
+  },
+  {
+    "idLog": 2,
+    "usuario": "Bruno Exemplo",
+    "acao": "LOGIN",
+    "idEmpresa": 9,
+    "dataHora": "2026-10-17T20:00:00.000Z"
+  },
+  {
+    "idLog": 3,
+    "usuario": "Carla Exemplo",
+    "acao": "CREATE",
+    "entidade": "Cadastro de usuário",
+    "idEmpresa": 7,
+    "dataHora": "2026-10-15T21:00:00.000Z"
+  },
+  {
+    "idLog": 4,
+    "usuario": "Sistema de exemplo",
+    "acao": "ROTINA_X",
+    "entidade": "Integração",
+    "dataHora": "2026-10-17T21:00:00.000Z"
+  }
+]

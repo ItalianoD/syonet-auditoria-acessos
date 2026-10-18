@@ -1,0 +1,6 @@
+[
+  {"id": 1, "priority": 1, "action": {"type": "modifyHeaders", "requestHeaders": [
+    {"header": "Origin", "operation": "set", "value": "https://disbrava.syonet.com"},
+    {"header": "Referer", "operation": "set", "value": "https://disbrava.syonet.com/"}
+  ]}, "condition": {"urlFilter": "||disbrava.syonet.com/", "resourceTypes": ["xmlhttprequest"]}}
+]

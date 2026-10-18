@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "SYONET — Auditoria e Acessos",
+  "version": "0.4.0",
+  "description": "Login separado, auditoria em todas as lojas, inativação, logs, comparação e cópia de acessos do Syonet.",
+  "minimum_chrome_version": "114",
+  "permissions": ["declarativeNetRequestWithHostAccess"],
+  "host_permissions": ["https://disbrava.syonet.com/*"],
+  "incognito": "spanning",
+  "content_scripts": [{"matches": ["https://disbrava.syonet.com/portal/*"], "js": ["session-bridge.js"], "run_at": "document_idle"}],
+  "background": {"service_worker": "background.js"},
+  "action": {"default_title": "Abrir SYONET Auditoria"},
+  "content_security_policy": {"extension_pages": "script-src 'self'; object-src 'none'"},
+  "declarative_net_request": {"rule_resources": [{"id": "syonet_headers", "enabled": true, "path": "rules.json"}]}
+}

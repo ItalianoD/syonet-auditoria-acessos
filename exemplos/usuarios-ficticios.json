@@ -1,0 +1,196 @@
+[
+  {
+    "idUsuario": 90001,
+    "nome": "Ana",
+    "sobrenome": "Exemplo",
+    "nomeLogin": "ANA.DEMO",
+    "ativo": true,
+    "idGrupo": "GESTÃO",
+    "empresas": [
+      9,
+      7
+    ],
+    "ultimoLogin": "2026-08-30T21:00:00.000Z",
+    "permissoes": [
+      {
+        "codigo": "EVENTOS",
+        "categoria": "Menu",
+        "descricao": "Visualizar eventos",
+        "escopo": "9",
+        "permitido": true
+      },
+      {
+        "codigo": "RELATORIOS",
+        "categoria": "Menu",
+        "descricao": "Relatórios de gestão",
+        "escopo": "9",
+        "permitido": true
+      },
+      {
+        "codigo": "CONFIGURAR_LOJA",
+        "categoria": "Menu",
+        "descricao": "Configurar loja",
+        "escopo": "9",
+        "permitido": true
+      },
+      {
+        "codigo": "EXPORTAR",
+        "categoria": "Menu",
+        "descricao": "Exportar dados",
+        "escopo": "9",
+        "permitido": false
+      }
+    ]
+  },
+  {
+    "idUsuario": 90002,
+    "nome": "Bruno",
+    "sobrenome": "Exemplo",
+    "nomeLogin": "BRUNO.DEMO",
+    "ativo": true,
+    "idGrupo": "VENDAS",
+    "empresas": [
+      9
+    ],
+    "ultimoLogin": "2026-08-05T21:00:00.000Z",
+    "permissoes": [
+      {
+        "codigo": "EVENTOS",
+        "categoria": "Menu",
+        "descricao": "Visualizar eventos",
+        "escopo": "9",
+        "permitido": true
+      },
+      {
+        "codigo": "RELATORIOS",
+        "categoria": "Menu",
+        "descricao": "Relatórios de gestão",
+        "escopo": "9",
+        "permitido": false
+      },
+      {
+        "codigo": "CONFIGURAR_LOJA",
+        "categoria": "Menu",
+        "descricao": "Configurar loja",
+        "escopo": "9",
+        "permitido": false
+      },
+      {
+        "codigo": "EXPORTAR",
+        "categoria": "Menu",
+        "descricao": "Exportar dados",
+        "escopo": "9",
+        "permitido": false
+      }
+    ]
+  },
+  {
+    "idUsuario": 90003,
+    "nome": "Carla",
+    "sobrenome": "Exemplo",
+    "nomeLogin": "CARLA.DEMO",
+    "ativo": true,
+    "idGrupo": "VENDAS",
+    "empresas": [
+      9
+    ],
+    "ultimoLogin": "2026-10-10T21:00:00.000Z",
+    "permissoes": [
+      {
+        "codigo": "EVENTOS",
+        "categoria": "Menu",
+        "descricao": "Visualizar eventos",
+        "escopo": "9",
+        "permitido": true
+      },
+      {
+        "codigo": "RELATORIOS",
+        "categoria": "Menu",
+        "descricao": "Relatórios de gestão",
+        "escopo": "9",
+        "permitido": false
+      },
+      {
+        "codigo": "CONFIGURAR_LOJA",
+        "categoria": "Menu",
+        "descricao": "Configurar loja",
+        "escopo": "9",
+        "permitido": false
+      },
+      {
+        "codigo": "EXPORTAR",
+        "categoria": "Menu",
+        "descricao": "Exportar dados",
+        "escopo": "9",
+        "permitido": false
+      }
+    ]
+  },
+  {
+    "idUsuario": 90004,
+    "nome": "Diego",
+    "sobrenome": "Exemplo",
+    "nomeLogin": "DIEGO.DEMO",
+    "ativo": true,
+    "idGrupo": "TI",
+    "empresas": [
+      9,
+      7
+    ],
+    "ultimoLogin": null
+  },
+  {
+    "idUsuario": 90005,
+    "nome": "Elisa",
+    "sobrenome": "Exemplo",
+    "nomeLogin": "ELISA.DEMO",
+    "ativo": false,
+    "idGrupo": "VENDAS",
+    "empresas": [
+      7
+    ],
+    "ultimoLogin": "2026-07-07T21:00:00.000Z"
+  },
+  {
+    "idUsuario": 90006,
+    "nome": "Felipe",
+    "sobrenome": "Exemplo",
+    "nomeLogin": "FELIPE.DEMO",
+    "ativo": true,
+    "idGrupo": "GESTÃO",
+    "empresas": [
+      7
+    ],
+    "ultimoLogin": "2026-09-16T21:00:00.000Z",
+    "permissoes": [
+      {
+        "codigo": "EVENTOS",
+        "categoria": "Menu",
+        "descricao": "Visualizar eventos",
+        "escopo": "9",
+        "permitido": true
+      },
+      {
+        "codigo": "RELATORIOS",
+        "categoria": "Menu",
+        "descricao": "Relatórios de gestão",
+        "escopo": "9",
+        "permitido": true
+      },
+      {
+        "codigo": "CONFIGURAR_LOJA",
+        "categoria": "Menu",
+        "descricao": "Configurar loja",
+        "escopo": "9",
+        "permitido": true
+      },
+      {
+        "codigo": "EXPORTAR",
+        "categoria": "Menu",
+        "descricao": "Exportar dados",
+        "escopo": "9",
+        "permitido": false
+      }
+    ]
+  }
+]
